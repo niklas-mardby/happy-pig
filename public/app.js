@@ -21,12 +21,30 @@
 
 // vad är p? antal potatisar vi har skalat!
 
-const maxPotatoes = 10;
+// let maxPotatoes = prompt("Hur många potatisar ska vi skala?");
 
-for (let peeledPotatoes = 1; peeledPotatoes <= maxPotatoes; peeledPotatoes++) {
-	console.log(
-		`Skala en potatis! ${
-			maxPotatoes - peeledPotatoes
-		} potatisar kvar att skala.`
-	);
-}
+// console.log(maxPotatoes, typeof maxPotatoes);
+
+// // if (maxPotatoes > 10) maxPotatoes = 10;
+
+// for (let peeledPotatoes = 1; peeledPotatoes <= maxPotatoes; peeledPotatoes++) {
+// 	console.log(
+// 		`Skala en potatis! ${
+// 			maxPotatoes - peeledPotatoes
+// 		} potatisar kvar att skala.`
+// 	);
+// }
+
+let answer = prompt("Äpplen?");
+
+answer = Number(answer);
+
+console.log(
+	"Du och två kompisar äter " +
+		answer +
+		" äpplen var, vilket är " +
+		answer +
+		answer +
+		answer +
+		" äpplen"
+);
