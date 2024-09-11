@@ -117,13 +117,33 @@
 
 // 2024-09-11
 
-const animals = ["gorilla", "hund", "gris", "panda"];
-animals.mat = "glass";
+// const animals = ["gorilla", "hund", "gris", "panda"];
+// animals.mat = "glass";
 
-for (const element of animals) {
-	console.log(element);
+// for (const element of animals) {
+// 	console.log(element);
+// }
+
+// for (const i in animals) {
+// 	console.log(`Index: ${i}: Värde ${animals[i]}`);
+// }
+
+const obj = {
+	namn: "Mio",
+	ålder: 12,
+};
+
+obj.klass = "FE24";
+
+console.log(obj.namn);
+console.log(obj["namn"]);
+console.log(obj);
+
+// loopa igenom objekt
+
+for (const key in obj) {
+	console.log(`Key: ${key}: Value ${obj[key]}`);
 }
 
-for (const i in animals) {
-	console.log(`Index: ${i}: Värde ${animals[i]}`);
-}
+const key = "namn";
+console.log(obj[key]);
