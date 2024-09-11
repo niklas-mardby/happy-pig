@@ -35,16 +35,95 @@
 // 	);
 // }
 
-let answer = prompt("Äpplen?");
+// let answer = prompt("Äpplen?"); // "2"
 
-answer = Number(answer);
+// answer = Number(answer); // 2
 
-console.log(
-	"Du och två kompisar äter " +
-		answer +
-		" äpplen var, vilket är " +
-		answer +
-		answer +
-		answer +
-		" äpplen"
-);
+// console.log(
+// 	"Du och två kompisar äter " +
+// 		answer +
+// 		" äpplen var, vilket är " +
+// 		answer +
+// 		answer +
+// 		answer +
+// 		" äpplen"
+// );
+
+// console.log(
+// 	`Du och två kompisar äter ${answer} äpplen var, vilket är ${
+// 		answer + answer + answer
+// 	} äpplen totalt.`
+// );
+
+// let orderMore = true;
+// let order = [];
+// let item = "";
+
+// while (orderMore) {
+// 	// fråga: vad vill du ha?
+// 	item = prompt("Vad vill du ha?");
+
+// 	// spara svaret i en array
+// 	order.push(item);
+
+// 	// fråga: vill du ha ngt mer?
+// 	orderMore = confirm("Vill du ha något mer?");
+
+// 	// Om ja: börja om, annars visa beställning
+// }
+// console.log(order);
+
+// const a = "";
+// const b = [];
+// const c = {};
+
+// // hund = new Dog()
+
+// const student = {
+// 	firstName: "Kim",
+// 	hobbies: ["knitting", "motorcycles", "cooking"],
+// 	age: 27,
+// };
+
+// student.lastName = "Nilsson";
+
+// console.log(student.age);
+// student.age += 1;
+// console.log(student["age"]);
+
+// student.lastName = "Svensson";
+
+// foo = {
+// 	go: function () {
+// 		console.log("foo.go");
+// 	},
+// };
+
+// foo.go();
+
+// const students = [
+// 	{ firstName: "Niklas", lastName: "Mårdby" },
+// 	{ firstName: "Mio", lastName: "Nilsson" },
+// ];
+
+// console.log(students[0].firstName);
+
+// let i = 5;
+// if (i > 12) {
+// 	console.log("i är större än 12");
+// } else {
+// 	console.log("i är INTE större än 12");
+// }
+
+// 2024-09-11
+
+const animals = ["gorilla", "hund", "gris", "panda"];
+animals.mat = "glass";
+
+for (const element of animals) {
+	console.log(element);
+}
+
+for (const i in animals) {
+	console.log(`Index: ${i}: Värde ${animals[i]}`);
+}
